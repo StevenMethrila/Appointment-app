@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-order {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 250px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+.title-para {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.date-para {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+.btn1 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
